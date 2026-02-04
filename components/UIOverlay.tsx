@@ -35,7 +35,7 @@ const projects = [
     title: "HOOKFORGE",
     category: "Creators Tool",
     year: "2026",
-    link: "https://hookforgeproto.shangobashi.com",
+    link: "https://hookforge.shangobashi.com",
     // Traditional Djembe drum detail - Represents the 'Synth' and rhythm connection
     imageUrl: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2572&auto=format&fit=crop"
   }
