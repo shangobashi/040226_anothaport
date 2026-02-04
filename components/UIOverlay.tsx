@@ -10,7 +10,7 @@ const projects = [
     year: "2026",
     link: "https://shangobashi.com",
     // Abstract Flowing Data Lines - Represents the Operating System
-    imageUrl: "https://images.unsplash.com/photo-1634017839464-5c339ebe3cb4?q=80&w=2574&auto=format&fit=crop" 
+    imageUrl: "/placeholder1.png" 
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const projects = [
     year: "2023",
     link: "https://shangobashi.com",
     // Interconnected Dark Cubes - Represents the Nexus/Network
-    imageUrl: "https://images.unsplash.com/photo-1614726365723-49cfae967bda?q=80&w=2574&auto=format&fit=crop" 
+    imageUrl: "/placeholder2.png" 
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const projects = [
     year: "2023",
     link: "https://shangobashi.com",
     // Dark Monolithic Structure - Represents Nok Terra Architecture
-    imageUrl: "https://images.unsplash.com/photo-1605218427306-635ba243971c?q=80&w=2574&auto=format&fit=crop" 
+    imageUrl: "/placeholder3.png" 
   },
   {
     id: 4,
@@ -159,8 +159,8 @@ export const UIOverlay: React.FC = () => {
          </div>
          <div className="flex flex-col gap-2">
            <span className="text-zinc-500 tracking-wider font-bold">SOCIAL</span>
-           <a href="https://linkedin.com/in/shangobashi" target="_blank" rel="noopener noreferrer" className="text-zinc-100 text-sm font-semibold underline hover:text-accent">LINKEDIN -></a>
-           <a href="https://x.com/shangobashi" target="_blank" rel="noopener noreferrer" className="text-zinc-100 text-sm font-semibold underline hover:text-accent">TWITTER -></a>
+           <a href="https://linkedin.com/in/shangobashi" target="_blank" rel="noopener noreferrer" className="text-zinc-100 text-sm font-semibold underline hover:text-accent">LINKEDIN</a>
+           <a href="https://x.com/shangobashi" target="_blank" rel="noopener noreferrer" className="text-zinc-100 text-sm font-semibold underline hover:text-accent">TWITTER</a>
          </div>
       </motion.div>
 
