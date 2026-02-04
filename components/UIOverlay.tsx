@@ -7,7 +7,7 @@ const projects = [
     id: 1,
     title: "KINGSLEY",
     category: "Legal AI",
-    year: "2026",
+    year: "2025",
     link: "https://kingsleyproto.shangobashi.com",
     // Abstract Flowing Data Lines - Represents the Operating System
     imageUrl: "/placeholder1.png"
@@ -16,7 +16,7 @@ const projects = [
     id: 2,
     title: "BLUE SWARM",
     category: "Agentic Systems",
-    year: "2023",
+    year: "2025",
     link: "https://blueswarmproto.shangobashi.com",
     // Interconnected Dark Cubes - Represents the Nexus/Network
     imageUrl: "/placeholder2.png"
@@ -25,7 +25,7 @@ const projects = [
     id: 3,
     title: "PLETHORA",
     category: "Crypto Intel",
-    year: "2023",
+    year: "2025",
     link: "https://github.com/shangobashi",
     // Dark Monolithic Structure - Represents Nok Terra Architecture
     imageUrl: "/placeholder3.png"
@@ -34,7 +34,7 @@ const projects = [
     id: 4,
     title: "HOOKFORGE",
     category: "Creators Tool",
-    year: "2022",
+    year: "2026",
     link: "https://hookforgeproto.shangobashi.com",
     // Traditional Djembe drum detail - Represents the 'Synth' and rhythm connection
     imageUrl: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2572&auto=format&fit=crop"
