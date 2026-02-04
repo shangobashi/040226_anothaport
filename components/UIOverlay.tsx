@@ -5,39 +5,39 @@ import { ArrowDownRight, Globe, Layers, Mail, Box, ExternalLink, Linkedin, PenTo
 const projects = [
   {
     id: 1,
-    title: "YORUBA_OS",
-    category: "OS Design",
+    title: "KINGSLEY",
+    category: "Legal AI",
     year: "2026",
     link: "https://shangobashi.com",
     // Abstract Flowing Data Lines - Represents the Operating System
-    imageUrl: "/placeholder1.png" 
+    imageUrl: "/placeholder1.png"
   },
   {
     id: 2,
-    title: "ALKEBULAN_NEXUS",
-    category: "Design Systems",
+    title: "BLUE SWARM",
+    category: "Agentic Systems",
     year: "2023",
     link: "https://shangobashi.com",
     // Interconnected Dark Cubes - Represents the Nexus/Network
-    imageUrl: "/placeholder2.png" 
+    imageUrl: "/placeholder2.png"
   },
   {
     id: 3,
-    title: "NOK_TERRA",
-    category: "Architecture / AR",
+    title: "PLETHORA",
+    category: "Crypto Intel",
     year: "2023",
     link: "https://shangobashi.com",
     // Dark Monolithic Structure - Represents Nok Terra Architecture
-    imageUrl: "/placeholder3.png" 
+    imageUrl: "/placeholder3.png"
   },
   {
     id: 4,
-    title: "ORISHA_SYNTH",
-    category: "Hardware",
+    title: "HOOKFORGE",
+    category: "Creators Tool",
     year: "2022",
     link: "https://shangobashi.com",
     // Traditional Djembe drum detail - Represents the 'Synth' and rhythm connection
-    imageUrl: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2572&auto=format&fit=crop" 
+    imageUrl: "https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?q=80&w=2572&auto=format&fit=crop"
   }
 ];
 
