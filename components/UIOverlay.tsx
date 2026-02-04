@@ -205,6 +205,9 @@ export const UIOverlay: React.FC = () => {
                  <a href="https://shangobashi.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-3 bg-white text-black border border-white rounded-sm font-mono text-sm font-bold hover:bg-zinc-200 transition-all shadow-[0_0_15px_rgba(255,255,255,0.3)]">
                    PORTFOLIO <ExternalLink size={14} />
                  </a>
+                 <a href="https://blog.shangobashi.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-5 py-3 bg-white text-black border border-white rounded-sm font-mono text-sm font-bold hover:bg-zinc-200 transition-all shadow-[0_0_15px_rgba(255,255,255,0.3)]">
+                   WRITINGS <ExternalLink size={14} />
+                 </a>
                </div>
             </div>
          </div>
