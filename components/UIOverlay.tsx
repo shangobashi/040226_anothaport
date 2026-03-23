@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowDownRight, Globe, Layers, Mail, Box, ExternalLink, Linkedin, PenTool, Github, Twitter } from 'lucide-react';
+import { ArrowDownRight, Globe, Layers, Mail, Box, ExternalLink, Linkedin, PenTool, Github, Twitter, Database, Bot } from 'lucide-react';
 
 const projects = [
   {
@@ -64,7 +64,7 @@ export const UIOverlay: React.FC = () => {
       >
         <div className="flex flex-col drop-shadow-md">
           <h1 className="text-xl font-bold font-mono tracking-tighter text-white">SHANGO_BASHI</h1>
-          <span className="text-xs font-mono text-zinc-300 font-semibold tracking-wide">FULL-STACK/AI ENGINEER</span>
+          <span className="text-xs font-mono text-zinc-300 font-semibold tracking-wide">SOFTWARE ENGINEER</span>
         </div>
         <nav className="hidden md:flex gap-8 text-sm font-mono tracking-wide text-zinc-200 drop-shadow-md font-medium">
           <a 
@@ -118,7 +118,7 @@ export const UIOverlay: React.FC = () => {
           </div>
 
           <p className="mt-8 max-w-lg text-zinc-100 text-base md:text-lg font-mono leading-relaxed drop-shadow-sm bg-zinc-950/90 p-6 backdrop-blur-xl border-l-4 border-white shadow-2xl">
-            Full-Stack/AI Engineer crafting the future through AI, Data, and Creative Technology.
+            Software engineer building AI-native products, agentic systems, and structured software that solves real problems.
           </p>
           
           <div className="mt-12 flex gap-4">
@@ -144,7 +144,7 @@ export const UIOverlay: React.FC = () => {
       >
          <div className="flex flex-col gap-2">
            <span className="text-zinc-500 tracking-wider font-bold">ROLE</span>
-           <span className="text-zinc-100 text-sm font-semibold">FULL-STACK/AI ENGINEER</span>
+           <span className="text-zinc-100 text-sm font-semibold">SOFTWARE ENGINEER</span>
          </div>
          <div className="flex flex-col gap-2">
            <span className="text-zinc-500 tracking-wider font-bold">STATUS</span>
@@ -155,7 +155,7 @@ export const UIOverlay: React.FC = () => {
          </div>
          <div className="flex flex-col gap-2">
            <span className="text-zinc-500 tracking-wider font-bold">FOCUS</span>
-           <span className="text-zinc-100 text-sm font-semibold">AI / DATA / WEB3</span>
+           <span className="text-zinc-100 text-sm font-semibold">AI / DATA / AGENTIC</span>
          </div>
          <div className="flex flex-col gap-2">
            <span className="text-zinc-500 tracking-wider font-bold">SOCIAL</span>
@@ -184,21 +184,21 @@ export const UIOverlay: React.FC = () => {
             <div className="col-span-12 md:col-span-4">
                <h3 className="text-sm font-mono text-zinc-400 mb-8 border-l-2 border-zinc-700 pl-4 font-bold">[ DOMAINS ]</h3>
                <ul className="space-y-4 font-mono text-sm text-zinc-200 font-medium">
-                  <li className="flex items-center gap-3"><Layers size={16} className="text-zinc-500"/> AI ENGINEERING</li>
-                  <li className="flex items-center gap-3"><Box size={16} className="text-zinc-500"/> CREATIVE TECH</li>
-                  <li className="flex items-center gap-3"><Globe size={16} className="text-zinc-500"/> WEB & BLOCKCHAIN</li>
+                  <li className="flex items-center gap-3"><Layers size={16} className="text-zinc-500"/> FULL-STACK DEV</li>
+                  <li className="flex items-center gap-3"><Database size={16} className="text-zinc-500"/> DATA ENGINEERING</li>
+                  <li className="flex items-center gap-3"><Bot size={16} className="text-zinc-500"/> ML & AGENTIC SYSTEMS</li>
                </ul>
             </div>
             <div className="col-span-12 md:col-span-8">
                <p className="text-2xl md:text-3xl font-light leading-snug text-white mb-8 drop-shadow-md">
-                  I am <span className="font-bold border-b-2 border-white/30 pb-1">Shango Bashi</span>, a passionate Full-Stack/AI Engineer.
+                  I am <span className="font-bold border-b-2 border-white/30 pb-1">Shango Bashi</span>, a software engineer focused on full-stack development, data engineering, machine learning, and agentic systems.
                </p>
                <div className="text-zinc-300 text-lg leading-relaxed mb-8 max-w-2xl space-y-6 font-medium">
                   <p>
-                    My journey spans across web development, AI engineering and blockchain development, where I strive to create innovative solutions that push the boundaries of what's possible.
+                    I build AI-native products, workflows, and software that go beyond chat: structured systems designed to use tools, work with data, and solve real problems.
                   </p>
                   <p>
-                    Beyond code, I'm a sound engineer and artist, bringing a unique creative perspective to technical challenges. This blend of technical expertise and artistic vision allows me to craft experiences that are both functional and beautiful.
+                    My background in sound engineering and art continues to inform my technical work, giving me a strong bias toward systems that are not only functional, but also clear, coherent, and thoughtfully designed.
                   </p>
                </div>
                <div className="flex gap-4 mt-10">
@@ -217,7 +217,7 @@ export const UIOverlay: React.FC = () => {
       <footer id="contact" className="py-20 px-6 -mx-6 border-t border-zinc-800 flex flex-col md:flex-row justify-between items-start md:items-end gap-12 bg-black text-white">
          <div>
             <h2 className="text-6xl font-light tracking-tighter mb-4 text-white drop-shadow-lg">LET'S CREATE <br/><span className="text-zinc-500">TOGETHER</span></h2>
-            <p className="text-zinc-400 mb-6 max-w-md font-mono text-sm">Ready to bring your next project to life? Let's discuss how we can innovate together.</p>
+            <p className="text-zinc-400 mb-6 max-w-md font-mono text-sm">Building AI-native products and structured systems. Let's discuss how we can work together.</p>
             <a href="mailto:shangobashi@gmail.com" className="inline-flex items-center gap-3 text-xl text-zinc-300 hover:text-white transition-colors border-b border-transparent hover:border-white pb-1 font-medium">
               <Mail size={24} /> shangobashi@gmail.com
             </a>
