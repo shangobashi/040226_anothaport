@@ -23,10 +23,10 @@ const projects = [
   },
   {
     id: 3,
-    title: "PLETHORA",
-    category: "Crypto Intel",
+    title: "ISSALABS",
+    category: "AI Lab",
     year: "2025",
-    link: "https://github.com/shangobashi",
+    link: "https://www.issalabs.xyz",
     // Dark Monolithic Structure - Represents Nok Terra Architecture
     imageUrl: "/placeholder3.png"
   },
